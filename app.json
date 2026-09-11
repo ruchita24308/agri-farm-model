@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Bhumisutra",
+    "slug": "bhumisutra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Bhumisutra needs your location to fetch soil, weather and groundwater data for your area."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Bhumisutra needs your location to fetch soil, weather and groundwater data for your area."
+        }
+      ]
+    ]
+  }
+}
